@@ -113,7 +113,7 @@ async def on_message(message):
                 "Please communicate with me in a server we share.")
 
         # Ignore all messages not directed at bot unless it was a mention
-        if not message.content.startswith(PREFIX) and msg == "":
+        if not (message.content.startswith(PREFIX) or message.content.startswith("-")) and msg == "":
             return
 
         text = text[1:]
