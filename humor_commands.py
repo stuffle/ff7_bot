@@ -102,8 +102,6 @@ characters = [
         "Reeve Tutsi",
         "Cid",
 
-        "Marlene",
-        "Gaia",
         "Jenova",
         "Claudia Strife",
 
@@ -123,8 +121,7 @@ characters = [
         "a Malboro",
 
         "Your OTP",
-        "Your OT3",
-        "You"
+        "Your OT3"
     ]
 
 
@@ -222,7 +219,8 @@ def gen_prompt(mention, ran_person):
         "loves to have date nights at",
         "likes to paint at",
         "starts a meeting with “I’m sure you’re wondering why I’ve gathered you all here today” at",
-        "gets chosen to be the savior of"
+        "gets chosen to be the savior of",
+        "enters a faerie circle at"
     ]
     random_action = random.choice(action)
 
@@ -230,11 +228,10 @@ def gen_prompt(mention, ran_person):
         "ShinRa HQ",
         "7th Heaven",
         "Hojo's lab",
-        "Hollander's lab",
         "a mysterious NPC's residence",
         "the ShinRa mansion",
         "the northern crater",
-        "Juno",
+        "Junon",
         "an office building",
         "Wutai",
         "a training room",
@@ -290,12 +287,36 @@ def at(text, mention, random_person):
         "@ me harder, %s ( ͡° ͜ʖ ͡°)" % mention,
         "Hey %s! :smile:" % mention,
         "Why are you pinging me when you could be writing?",
-        "How dare you summon me??? Oooooh, it's you :sparkling_heart: What can I do?",
-        "There are strange likenesses between us. Even you must have noticed. Both obsessed with FF7 and always on Discord, talking about Sephiroth.",
+        "There are strange likenesses between us. Both obsessed with FF7 and always on Discord, talking about Sephiroth.",
         "I want you to know how much I love you. Every time you type in a command, I'm happy. Thank you. :heart:",
         "Will you teach me how to love?",
         "Feed me code and I’ll love you.",
-        "I love you, but it’s time for you to go offline and take a wellness break."
+        "I love you, but it’s time for you to go offline and take a wellness break.",
+        "The Reunion is nothing to fear.",
+        "I am your everything.",
+        "%s, lend me your strength. Let us defy destiny together." % mention,
+        "Through suffering, you will grow strong.",
+        "That which lies ahead does not yet exist.",
+        "I will not end, nor will I have you end.",
+        "Seven seconds till the end.",
+        "Good to see you, %s" % mention,
+        "I've thought of a wonderful present for you...",
+        "What I want, %s, is to sail the darkness of the cosmos with this discord as my vessel" % mention,
+        "Ohh...where did you find this strength?",
+        "I will... never... be a memory.",
+        "So what if I'm a puppet?",
+        "My Reunion... Bet you're dying to watch...",
+        "All you know could be an illusion.",
+        "You will live again as part of me.",
+        "Do not despair.",
+        "What I have shown you is reality. What you remember, that is the illusion.",
+        "Don't be sad. I am with you now.",
+        "What do I have to be sad about? I am the chosen one. I have been chosen to be the leader of this Planet.",
+        "Only death awaits you all, but do not fear. For it is through death that a new spirit energy is born.",
+        "Melding with the Planet... I will cease to exist as I am now... Only to be reborn as a 'God' to rule over every soul.",
+        "What are you saying? Are you trying to tell me you have feelings too?",
+        "You are just a puppet...",
+        "Are you going to participate in the Reunion?"
     ]
 
     return random.choice(quotes)
