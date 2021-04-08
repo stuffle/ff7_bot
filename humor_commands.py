@@ -351,6 +351,53 @@ def gen_prompt(mention, ran_person):
     return "%s %s %s." % (random_person, random_action, random_setting)
 
 
+def fetch(text):
+    items = [
+        "the Black Materia",
+        "a coffee and a bagel",
+        "Sephiroth’s boots",
+        "a materia to attract plot bunnies",
+        "a materia to repel plot bunnies",
+        "%s’s first born child",
+        "Mother’s love",
+        "Sephiroth’s left glove",
+        "the wrath of the mods",
+        "a specimen from Hojo’s lab",
+        "me, to use as you see fit",
+        "Cloud in a bikini",
+        "a potato",
+        "Yuffie’s most prized materia",
+        "a flower from the slums",
+        "a chocobo",
+        "chocolate",
+        "the Buster Sword",
+        "the Masamune",
+        "Jenova’s head",
+        "Zack’s wallet",
+        "an inappropriate poster of our master",
+        "Genesis’s worn copy of Loveless",
+        "Tseng’s PHS",
+        "Rude’s spare sunglasses",
+        "Reno’s electric rod",
+        "Elena’s notes on the Turk’s activities",
+        "Rufus’s pristine, white coat",
+        "Barrett’s planetology books",
+        "Tifa’s left glove",
+        "Aerith’s ribbon",
+        "the statue of Red XIII’s father",
+        "a inaccurate fortune from Cait Sith",
+        "Vincent’s coffin",
+        "Cid’s only cigarette lighter",
+        "Heidegger’s terrible tea",
+        "Scarlet’s latest weapon",
+        "the entirety of Reeve’s budget",
+        "a fully-access keycard to everywhere in Shinra"
+    ]
+
+    item = random.choice(items)
+    return "I have fetched something just for you. You have gained: %s." % item
+
+
 def at(text, mention, random_person):
     """
     Inspired by RedHorse and Cybrid

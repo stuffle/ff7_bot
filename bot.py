@@ -187,6 +187,9 @@ async def on_message(message):
         elif text.startswith("iloveyou"):
             msg = "%s: %s" % (mention, i_love_you("Sephiroth"))
 
+        elif text.startswith("fetch"):
+            msg = "%s: %s" % (mention, fetch(text))
+
     except (HouseCupException, mod.HouseCupException) as ex:
         msg = "Error: " + str(ex)
     except Exception as ex:
