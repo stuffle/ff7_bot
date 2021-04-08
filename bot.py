@@ -172,6 +172,8 @@ async def on_message(message):
             msg = "%s: %s" % (mention, should_i_kill())
         elif text.startswith("shouldigetbacktowork"):
             msg = "%s: %s" % (mention, back_to_work())
+        elif text.startswith("shouldifinishmywip"):
+            msg = "%s: %s" % (mention, should_i_finish_my_wip(mention))
         elif text.startswith("randompair") or text.startswith("rarepair"):
             msg = "%s: %s" % (mention, random_pair())
         elif text.startswith("kink"):

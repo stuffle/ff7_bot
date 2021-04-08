@@ -145,6 +145,14 @@ def help_command(message, prefix):
             title="WhenShouldTheyFuck Help",
             color=COLOR,
             description=msg)
+    elif arg == "shouldifinishmywip":
+        msg = "Have some help deciding if you should finish your WIP. " \
+              "Most responses written by Tocasia, with some by Munchkin, Keta, and Sephirise.\n\n" \
+              "Example: `%sshouldifinishmywip`" % prefix
+        embed = discord.Embed(
+            title="shouldIFinishMyWIP Help",
+            color=COLOR,
+            description=msg)
     elif arg == "randompair":
         msg = "Get a random pairing.\n\n" \
               "Example: `%srandompair`" % prefix
@@ -186,7 +194,7 @@ def general_help(prefix, guild_id):
         inline=False)
     embed.add_field(
         name="Inspiration Commands:",
-        value="`inspireme`, `prompt`, `randomPair`, `kink`, `shouldIKillMyCharacter`, `shouldIGetBackToWork`, `whenShouldTheyFuck`",
+        value="`inspireme`, `prompt`, `randomPair`, `kink`, `shouldIKillMyCharacter`, `shouldIGetBackToWork`, `shouldIFinishMyWIP`, `whenShouldTheyFuck`",
         inline=False)
     embed.add_field(
         name="For More Commands:",
