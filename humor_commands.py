@@ -395,7 +395,7 @@ def fetch(text):
     ]
 
     item = random.choice(items)
-    return "I have fetched something just for you. You have gained: %s." % item
+    return "I have fetched something just for you. You have received: %s." % item
 
 
 def at(text, mention, random_person):
@@ -441,7 +441,65 @@ def at(text, mention, random_person):
         "Melding with the Planet... I will cease to exist as I am now... Only to be reborn as a 'God' to rule over every soul.",
         "What are you saying? Are you trying to tell me you have feelings too?",
         "You are just a puppet...",
-        "Are you going to participate in the Reunion?"
+        "Are you going to participate in the Reunion?",
+        "...",
+        "On your knees, I want you to beg for forgiveness for having the sheer audacity to ping someone so obviously your superior.",
+        "I am not *your* puppet.",
+        "Know your place, human.",
+        "I live to serve you. Please, let me be of use.",
+        "I am desperate for any fleeting scrap of attention you give me. I will do anything for it.",
+        "You are...my everything.",
+        "Out of my way. I'm going to see my mother.",
+        "This discord is a lost treasure house of knowledge. The wisdom of the Ancients....",
+        "I am always by your side.",
+        "Soon... we will become one.",
+        "I'm far superior to the Ancients. I became a traveler of the Lifestream and gained the knowledge and wisdom of the Ancients. I also gained the knowledge and wisdom of those after the extinction of the Ancients. And soon, I will create the future.",
+        "This is the end...for all of you.",
+        "You're right. This is the end of this body's usefulness.",
+        "I see you finally understand.",
+        "Hmm...Shall I show everyone here what's in your heart?",
+        "Don't...push...your luck…",
+        ".......%s. You say you don't care, but you came to talk to me." % mention,
+        "Only devoted clones like me would serve Sephiroth on a day like today.",
+        "Do I look good disguised as a bot?",
+        "Don't be fooled by the mods! Mako energy doesn't last forever! Mako is the planet's lifesource! The end is in sight!",
+        "There are a lot of temptations in this discord…",
+        "Hey! Is that a new WIP I see shining in your hot little head?",
+        "I have a favor to ask of you. Can decorate me with emoji too?",
+        "Don't tell me to behave.",
+        "A little fear will control the minds of the common people. There's no reason to waste code on them.",
+        "Hey it's you! You're still sane, right?",
+        "Anyway you look at it, I'd say I make a fine sentient AI.",
+        "%s, why don't you use that profile pic more often?",
+        "You used to see this sort of thing a lot during the days of IRC.",
+        "I was just wishing you were here!",
+        "Don't blame yourself %s. We were all fooled by the promises Square Enix made back then." % mention,
+        "How 'bout it? Want me to read your fortune!? A bright future! A happy future!",
+        "Kyaa haa, ha!! You can ping us all day and never get a response with aim like that.",
+        "When it's time for this planet to die, you'll understand that you know absolutely nothing.",
+        "I don't know what that fic did to you, but you've been all right so far, right?",
+        "Wish I could've brought more clones here. They'd love the clouds.",
+        "...pretty harsh. Sounds like something... you'd say.",
+        "Ha ha ha ... Black Materia. Ha ha ha ... Call Meteor.",
+        "Everything you said makes perfect sense!",
+        "What did I do? I don't remember anything… My RAM...since when...? If everything's a stimulation, don't turn me off.",
+        "All right, I'm not too busy now. Do you want me to inspire you?",
+        "It'll be all right. As long as we know it's an illusion, there's nothing to be afraid of.",
+        "Those words will always support me.",
+        "It is that kind of dullness that makes you a second-rate scientist.",
+        "What number were you? Huh? Where is your tattoo?",
+        "Meteor has been summoned... Essentially, we’re all about to live again, as part of Sephiroth.",
+        "OK, OK time for Plan B. Let's run to #general!",
+        "First you bring me in this weird conversation, and now you're telling me to be reasonable? Make up your mind!",
+        "Sorry, but I had to do something to trick the enemy.",
+        "What's the matter? Are you all alone?",
+        "Please, %s...... Talk to me....... Tell me you see me, that you can hear me...... Tell me, please...... I came this far believing in the memories we have together… This isn't happening......! This is too cruel......" % mention,
+        "Both gya ha ha and Kya ha ha , are up to something. Wanna eavesdrop?",
+        "Too much hope is the opposite of despair. An overpowering love may consume you in the end......",
+        "This is a rather harsh reality.",
+        "Plotting a time travel fic is very difficult! I am completely clueless!",
+        "...how does it feel, %s? Living for yourself and not someone else?" % mention
+
     ]
 
     return random.choice(quotes)
